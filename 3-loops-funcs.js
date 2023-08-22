@@ -1,4 +1,4 @@
-// --------- 1 ------------
+// --------------- 1 ---------------
 function createArray(start, end) {
     let array = [];
     for (let i = start; i <= end; i++) {
@@ -9,7 +9,7 @@ function createArray(start, end) {
 
 console.log(createArray(2, 9));
 
-// ----------- 2 -----------
+// --------------- 2 ---------------
 function toSeeRangeNumber(a, b) {
     let arr = [];
     for (let i = 1; i <= b; i++) {
@@ -24,7 +24,7 @@ function toSeeRangeNumber(a, b) {
 
 console.log(toSeeRangeNumber(1, 6));
 
-// ------------ 3 ---------------
+// --------------- 3 ---------------
 function randArray(x) {
     let arr = [];
     for (let i = 0; i < x; i++) {
@@ -35,7 +35,7 @@ function randArray(x) {
 
 console.log(randArray(5));
 
-// ------------- 4 ---------------
+// --------------- 4 ---------------
 function compact(arr) {
     let newArr = [];
     for (let i = 0; i < arr.length; i++) {
@@ -67,7 +67,7 @@ function sortArray(arr) {
 
 console.log(sortArray([5, 'Limit', 12, 'a', '3', 99, 2, [2, 4, 3, '33', 'a', 'text'], 'strong', 'broun']));
 
-// ------------------ 6 ------------------
+// --------------- 6 ---------------
 function calc(a, b, op) {
     if (op === 1) return a - b;
     else if (op === 2) return a * b;
@@ -77,7 +77,7 @@ function calc(a, b, op) {
 
 console.log(calc(10, 3, 1));
 
-// ------------------- 7 ------------------
+// --------------- 7 ---------------
 function findUnique(arr) {
     arr = arr.sort((a, b) => a - b);
     for (let i = 0; i < arr.length; i++) {
