@@ -46,7 +46,7 @@ function compact(arr) {
     return newArr;
 }
 
-console.log(compact([1, 2, 3, 2, 4, 5, 5]));
+console.log(compact([1, 4, 2, 2, 3, 2, 4, 5, 5]));
 
 // --------------- 5 ---------------
 function sortArray(arr) {
