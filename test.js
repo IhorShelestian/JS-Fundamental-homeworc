@@ -16,7 +16,7 @@
 // alert(calculator.mul());
 
 
-
+//----------------------------------------------------------------------------------------
 
 
 // debugger
@@ -38,7 +38,7 @@
 
 // ladder.down().showStep().down().showStep();
 
-
+//-------------------------------------------------------------------------------------
 
 
 // function Calculator() {
@@ -61,7 +61,7 @@
 // alert('Mul:' + calculator.mul());
 
 
-
+//--------------------------------------------------------------------------------------
 
 // function Accumulator(startingValue) {
 //     this.value = startingValue;
@@ -76,3 +76,63 @@
 // accumulator.read();
 
 // alert(accumulator.value);
+
+
+
+//-------------------------------------------------------------------------------
+
+
+
+// const mentor = {
+//     course: "JS fundamental",
+//     duration: 3,
+//     direction: "web-development",
+// };
+
+// function propsCount(currentObject) {
+//     let current = 0;
+//     for (let i in currentObject) current++;
+//     return current;
+// }
+
+// console.log(propsCount(mentor));
+
+
+
+//-------------------------------------------------------------------------------------
+
+
+
+// class Person {
+//     constructor(name, surname) {
+//         this.name = name;
+//         this.surname = surname;
+//     }
+
+//     getFullName() {
+//         return `${this.surname} ${this.name}`;
+//     }
+// }
+
+// class Student extends Person {
+//     constructor(name, surname, year) {
+//         super(name, surname);
+//         this.year = year;
+//     }
+
+//     getFullName(middleName) {
+//         return `${this.surname} ${this.name} ${middleName}`;
+//     }
+
+//     getCourse() {
+//         let currentYear = 2023;
+//         return currentYear - this.year;
+//     }
+// }
+
+// const stud1 = new Student("Petro", "Petrenko", 2019);
+// console.log(stud1.getFullName("Petrovych"));
+// console.log("Current course: " + stud1.getCourse());
+
+
+//--------------------------------------------------------------------------------------------------
