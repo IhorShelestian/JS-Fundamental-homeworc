@@ -6,6 +6,7 @@ const sale = document.querySelector('.fa-share-alt');
 const newShoe = document.querySelector('.new');
 
 
+
 colors.forEach(color => {
     color.addEventListener('click', function () {
 
