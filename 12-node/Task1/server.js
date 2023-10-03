@@ -8,7 +8,7 @@ const server = http.createServer((req, res) => {
     switch (req.method) {
         case "GET":
             res.statusCode = 200; // OK
-            res.setHeader('Content-Type', 'html');
+            res.setHeader('Content-Type', 'text/html');
             res.end(`<h1>System information</h1>
                     <p>Current user name: ${os.userInfo().username}</p>
                     <p>OS type: ${os.type()}</p>
